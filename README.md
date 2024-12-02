@@ -1,4 +1,4 @@
-**How to compile Class in cmd:**
+**How to compile Class and run:**
   1. javac -d out Main.java gui/*.java
   2. java -cp out Main
 
