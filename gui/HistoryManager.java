@@ -64,6 +64,7 @@ public class HistoryManager {
 
             JFrame historyFrame = new JFrame("Conversion History");
             historyFrame.setSize(500, 400);
+            historyFrame.setLocationRelativeTo(null);
 
             String[] columnNames = {"Binary", "Decimal", "Hexadecimal", "Octal"};
             DefaultTableModel model = new DefaultTableModel(columnNames, 0);

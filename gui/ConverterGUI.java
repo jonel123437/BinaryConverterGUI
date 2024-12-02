@@ -8,9 +8,9 @@ import gui.HistoryManager;
 public class ConverterGUI {
     public void start() {
         // Create the main frame
-        JFrame frame = new JFrame("Multi-Base Converter");
+        JFrame frame = new JFrame("Binary Converter");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 400);
+        frame.setSize(410, 400);
         frame.setLocationRelativeTo(null);
         frame.setLayout(null); // Set layout to null for custom positioning
 
@@ -21,7 +21,7 @@ public class ConverterGUI {
 
         String[] bases = {"Binary", "Decimal", "Hexadecimal", "Octal"};
         JComboBox<String> baseSelector = new JComboBox<>(bases);
-        baseSelector.setBounds(120, 20, 150, 25);
+        baseSelector.setBounds(120, 20, 200, 25);
         frame.add(baseSelector);
 
         JLabel inputLabel = new JLabel("Input:");
